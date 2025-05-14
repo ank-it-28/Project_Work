@@ -1,0 +1,77 @@
+.navbar-brand h2{
+    font-size: 2rem;
+}
+.navbar{
+    padding: 0 !important;
+    background-color: #394657 !important;
+    position: relative;
+}
+
+.navbar-brand h2 span{
+    font-size: 3rem;
+    color: #4444ab;
+}
+.cart_and_Sign_In{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Sign_In a{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 2px;
+    border: 1px solid #131921;
+    border-radius: 2px;
+    padding: 8px;
+}
+.Sign_In a:hover{
+    border: 1px solid white;
+}
+.cart_icon #icon{
+    margin-right: 10px;
+    color: #fff;
+    margin-top: 2px;
+}
+.Search{
+    width: 40%;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+    top: 70px;
+    right: 10px;
+}
+.searchbar{
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+.list{
+    position: absolute;
+    z-index: 99;
+    top: 38px;
+    background-color: #fff;
+    width: 100%;
+    font-size: 0.9rem;
+}
+.list a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #394657;
+}
+
+
+
+@media screen and (max-width : 972px) {
+    .Search{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width : 333px) {
+    .cart_and_Sign_In {
+        gap: 8px;
+    }
+}
